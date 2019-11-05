@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+	background: #fd531f;
 }
 
 /* ##### general ##### */
@@ -17,7 +18,9 @@ header {
 	background: #3498db;
 	margin-bottom: 2rem;
 }
-
+body{
+	color: white;
+}
 input[type='text'] {
 	margin: 1rem;
 	background: #fff;
@@ -41,23 +44,26 @@ th {
 	margin: 2px;
 	border-radius: 3px;
 }
+/*
 td:hover {
 	position: left;
 	cursor: pointer;
 	background-color: #ddd;
 }
-
+*/
 /* ##### Columns ##### */
 .column1 {
 	float: left;
 	width: 50%;
 	padding: 10px;
+	background-color: #fe4912;
 }
 .column2 {
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
+	background-color: #2e91f0;
+
 }
 
 /* ##### Rows ##### */
@@ -86,9 +92,10 @@ td:hover {
 .credit a {
 	color: #3498bb;
 }
+
 button {
-	background: #d7d7d7;
-	color: #3b3b3b;
+	background: #28519c;
+	color: #ffffff;
 	padding: 0.6rem 1rem;
 	font-size: 0.8rem;
 	border: solid 1px #c7c7c7;
